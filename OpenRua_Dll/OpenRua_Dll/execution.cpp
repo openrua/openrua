@@ -8,22 +8,6 @@
 #include <filesystem>
 #include <fstream>
 
-typedef union
-{
-	uintptr_t gc;
-	void* p;
-	double n;
-	int b;
-	float v[2];
-} Value;
-
-typedef struct lua_tvalue
-{
-	Value value;
-	int extra[1];
-	int tt;
-} lua_TValue;
-
 uintptr_t datamodel;
 uintptr_t sc;
 
