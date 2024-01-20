@@ -16,6 +16,12 @@
     <Filter Include="Source Files\compiler">
       <UniqueIdentifier>{2743be57-4a87-4ec5-a107-1421ab13f946}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\misc">
+      <UniqueIdentifier>{8622cd87-acb4-4418-a4dc-6cb9b2230dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\execution">
+      <UniqueIdentifier>{a4a767b6-8984-435b-b4e3-bab11ff0d35e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -24,10 +30,19 @@
     <ClCompile Include="compiler.cpp">
       <Filter>Source Files\compiler</Filter>
     </ClCompile>
+    <ClCompile Include="execution.cpp">
+      <Filter>Source Files\execution</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="compiler.hpp">
       <Filter>Source Files\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>Source Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="execution.hpp">
+      <Filter>Source Files\execution</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
